@@ -25,13 +25,13 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  background: radial-gradient(ellipse at center, orange 0%, orange 100%);
+  background: radial-gradient(ellipse at center, #ffa500 0%, orange 100%);
   z-index: -2;
 }
 .background::after {
   content:"";
   position: absolute;
-  width:200vw;
+  width: 200vw;
   height: 200vh;
   left: -50%;
   top: -50%;

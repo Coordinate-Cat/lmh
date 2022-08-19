@@ -16,15 +16,21 @@
 
 <style>
   .header {
-    height: 4rem;
     display: flex;
-    justify-content: space-between;
+    position: fixed;
     flex-direction: row;
-    border-right: 1px solid #000;
-    border-left: 1px solid #000;
-    border-bottom: 1px solid #000;
+    justify-content: space-between;
+
+    max-width: calc(100% - 8px);
+    margin: 0 auto;
+    width: 100%;
+    height: 4rem;
     margin: 4px;
+    /* margin-top: 4px; */
     margin-bottom: none;
+
+    border: 1px solid #000;
+    border-top: none;
   }
 
   .header__title {
