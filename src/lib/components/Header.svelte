@@ -17,7 +17,7 @@
 <style>
   .header {
     display: flex;
-    position: fixed;
+    /* position: fixed; */
     flex-direction: row;
     justify-content: space-between;
 
