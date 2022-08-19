@@ -42,13 +42,21 @@
   }}
 />
 <div class="about-container">
-  <h1>About</h1>
-  <p>Tell People about you!!</p>
+  <h1>Ocat</h1>
+  <h2>details</h2>
+  <ul>
+    <li>Work: 25</li>
+    <li>Date of Birth: Tokyo</li>
+  </ul>
 </div>
 
 <style>
   .about-container {
     width: 100%;
     padding: 0 1rem;
+  }
+  ul li {
+    list-style: none;
+    margin: 0;
   }
 </style>
