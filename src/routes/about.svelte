@@ -45,3 +45,10 @@
   <h1>About</h1>
   <p>Tell People about you!!</p>
 </div>
+
+<style>
+  .about-container {
+    width: 100%;
+    padding: 0 1rem;
+  }
+</style>
