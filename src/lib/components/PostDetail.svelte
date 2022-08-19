@@ -5,6 +5,7 @@
 
 <div class="post-detail__top">
   <h1 class="post-detail__top__title">{post.title}</h1>
+  <p>{post.tags}</p>
   <div class="post-detail__top__info">
     <span class="post-detail__top__info__date">
       {format(new Date(post.date), "MMMM DD, YYYY")},

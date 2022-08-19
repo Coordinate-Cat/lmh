@@ -6,6 +6,7 @@
       "date": "2022-08-19T00:00:00.000Z",
       "description": "Why does it return a 500 error?",
       "isCompleted": true,
+      "emoji": "🔨",
       "slug": "sveltekit-favicon-error",
       "tags": [
         "svelte",

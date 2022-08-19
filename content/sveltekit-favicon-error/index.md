@@ -3,6 +3,7 @@ title: Issue with sveltekit returning 500 Error for favicon
 date: 2022-08-19
 description: Why does it return a 500 error?
 isCompleted: true
+emoji: 🔨
 slug: sveltekit-favicon-error
 tags: [svelte, sveltekit, vercel, vite]
 ---

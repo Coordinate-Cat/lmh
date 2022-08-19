@@ -3,7 +3,8 @@ interface Post {
   date: Date
   description: string
   isCompleted: boolean
-  title: string; 
+  title: string;
+  emoji: string;
   slug: string;
   tags: string[];
 }
