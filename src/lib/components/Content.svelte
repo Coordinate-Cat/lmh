@@ -3,16 +3,17 @@
 <style>
   .content {
     margin: 4px;
+    margin-bottom: 0;
     border: 1px solid #000;
-    height: calc(100vh - 76px);
+    height: 100%;
     overflow: scroll;
   }
   /*スマホサイズに適用*/
   @media screen and (max-width:599px){
     .content {
-      height: calc(100vh - 140px);
+      height: 100%;
       overflow: scroll;
-      margin-bottom: 560px;
+      /* margin-bottom: 60px; */
     }
   }
 </style>

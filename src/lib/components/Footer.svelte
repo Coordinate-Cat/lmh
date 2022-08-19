@@ -17,12 +17,13 @@
 
 <style>
   .footer {
-    position: fixed;
+    /* position: fixed; */
+    border: 1px solid #000;
+    margin: 4px;
     bottom: 0;
-    height: 2rem;
+    /* height: 2rem; */
     display: flex;
-    /* justify-content: center;
-    flex-direction: row; */
+    flex-direction: row;
   }
 
   .footer__links {
@@ -33,7 +34,7 @@
   }
 
   ul.footer__links {
-    margin: 0 21px;
+    margin: 0 16px;
   }
 
   .footer__links_item {

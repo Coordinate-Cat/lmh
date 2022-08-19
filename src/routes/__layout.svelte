@@ -3,7 +3,7 @@
   import Header from "$lib/components/Header.svelte";
   import Container from "$lib/components/Container.svelte";
   import Content from "$lib/components/Content.svelte";
-  // import Footer from "$lib/components/Footer.svelte";
+  import Footer from "$lib/components/Footer.svelte";
 </script>
 
 <Container>
@@ -11,5 +11,5 @@
   <Content>
     <slot />
   </Content>
-  <!-- <Footer /> -->
+  <Footer />
 </Container>

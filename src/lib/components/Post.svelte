@@ -4,13 +4,13 @@
 </script>
 
 <div class="post-item">
-  <p class="post-item__date">{format(new Date(post.date), "MMMM DD, YYYY")}</p>
   <h2 class="post-item__title">
     <a class="post-item__title__link" href={`/blog/${post.slug}`}
       >{post.title}</a
     >
   </h2>
-  <p class="post-item__description">{post.description}</p>
+  <!-- <p class="post-item__description">{post.description}</p> -->
+  <p class="post-item__date">{format(new Date(post.date), "MMMM DD, YYYY")}</p>
 </div>
 
 <style>
@@ -25,14 +25,12 @@
   .post-item__date {
     color: var(--secondary-color);
   }
-
-  /* .post-item__title {
-    margin: 0.5rem 0;
-  } */
-
+  .post-item__title {
+    line-height: 24px;
+  }
   .post-item__title__link {
     color: var(--main-color);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-decoration: none;
   }
 </style>

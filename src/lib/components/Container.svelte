@@ -4,6 +4,7 @@
   .container {
     margin: 0 auto;
     padding-top: 4px;
+    padding-bottom: 4px;
     /* height: 100vh;
     overflow-y: scroll; */
   }
