@@ -1,6 +1,7 @@
 @import './reset.css';
 @import './mdDesign.css';
 @import 'highlight.js/styles/github.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 
 :root {
   --main-color: #000;
@@ -10,9 +11,18 @@
   --border-color: #000;
   /* --border-color: #e5e7eb; */
   font-size: 16px;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
 }
 
+/*PCサイズに適用*/
+@media screen and(min-width:1024px){
+}
+/*タブレットサイズに適用*/
+@media screen and(max-width:1023px) and(min-width:600px){
+}
+/*スマホサイズに適用*/
+@media screen and(max-width:599px){
+}
 body {
   width: 100vw;
   height: 100vh;
