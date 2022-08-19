@@ -8,7 +8,7 @@
   /*スマホサイズに適用*/
   @media screen and (max-width:599px){
     .content {
-      margin-bottom: 60px;
+      margin-bottom: 100px;
     }
   }
 </style>
