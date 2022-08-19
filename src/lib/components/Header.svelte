@@ -17,9 +17,10 @@
 <style>
   .header {
     display: flex;
-    /* position: fixed; */
+    position: relative;
     flex-direction: row;
     justify-content: space-between;
+    z-index: 999;
 
     max-width: calc(100% - 8px);
     margin: 0 auto;

@@ -2,10 +2,8 @@
 
 <style>
   .container {
-    /* width: 760px; */
     margin: 0 auto;
-    /* padding: 0 200px; */
-    height: 100%;
+    height: 100vh;
     overflow-y: scroll;
   }
   .container::-webkit-scrollbar{

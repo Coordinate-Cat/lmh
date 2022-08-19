@@ -18,12 +18,10 @@
     border-bottom: solid 1px var(--border-color);
     padding: 0 16px;
     line-height: 1.6;
-    border: 1px solid #000;
-    margin: 4px;
   }
-  /* .post-item:last-child {
+  .post-item:last-child {
     border-bottom: none;
-  } */
+  }
   .post-item__date {
     color: var(--secondary-color);
   }
