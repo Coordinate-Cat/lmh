@@ -17,48 +17,41 @@
 
 <style>
   .footer {
-    /* position: fixed; */
     border: 1px solid #000;
     margin: 4px;
     bottom: 0;
-    /* height: 2rem; */
     display: flex;
     flex-direction: row;
   }
-
   .footer__links {
     display: flex;
-    /* flex-direction: row;
-    align-items: center; */
     list-style: none;
   }
-
   ul.footer__links {
     margin: 0 16px;
   }
-
   .footer__links_item {
     margin: 0;
+    border-left: 1px solid #000;
+    padding-left: 4px;
   }
   /* 最初の要素以外 */
-  .footer__links_item:not(:first-child) {
-    margin-left: 1rem;
+  .footer__links_item:first-child {
+    border-left: none;
+    margin-left: 0;
+    padding-left: 0;
   }
-
+  .footer__links_item:not(:first-child) {
+    margin-left: 4px;
+  }
   .footer__links_item:last-child {
     margin-right: 1rem;
   }
-
   .footer__links__item__link {
     padding-bottom: 0.2rem;
     color: var(--secondary-color);
     text-decoration: none;
   }
-
-  .footer__links__item__link:hover {
-    border-bottom: 1.5px solid var(--secondary-color);
-  }
-
   .footer__copy-right {
     color: var(--secondary-color);
   }

@@ -22,7 +22,7 @@ Also rewrote the svelte-specific `%svelte.assets%` to the path where the favicon
 
 However, this was easier than expected to fix with the following modification.
 
-[Why is sveltekit fetching for favicon.png in subpath?](https://stackoverflow.com/questions/71049580/why-is-sveltekit-fetching-for-favicon-png-in-subpath)
+[[Stackoverflow]Why is sveltekit fetching for favicon.png in subpath?](https://stackoverflow.com/questions/71049580/why-is-sveltekit-fetching-for-favicon-png-in-subpath)
 
 In the comments below the question of this one, I found the following answer.
 > href="%svelte.assets%/favicon.png"- I added a slash to this line and the error went away - href="/%svelte.assets%/favicon.png"

@@ -6,17 +6,16 @@
 <div class="post-detail__top">
   <h1 class="post-detail__top__title">{post.title}</h1>
   <p>{post.tags}</p>
+  <p>{post.description}</p>
   <div class="post-detail__top__info">
-    <span class="post-detail__top__info__date">
+    <p class="post-detail__top__info__date">
       {format(new Date(post.date), "MMMM DD, YYYY")},
-    </span>
-
-    <a class="post-detail__top__info__author" href="/about">by Ocat</a>
+      <a class="post-detail__top__info__author" href="/about">by Ocat</a>
+    </p>
   </div>
 </div>
 
 <div class="post-detail">
-
   <div class="post-detail__content">
     {@html post.body}
   </div>

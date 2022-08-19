@@ -86,8 +86,10 @@ ul li {
 
 figcaption {
   display: inline-block;
-  margin-top: 2px;
-  padding: 1px 4px;
-  color: #ffa500;
-  background-color: #000;
+  font-size: 0.8rem;
+  line-height: 22px;
+  padding: 0 4px;
+  color: #000;
+  border: 1px solid #000;
+  border-top: none;
 }
