@@ -12,7 +12,7 @@
     .content {
       height: calc(100vh - 140px);
       overflow: scroll;
-      margin-bottom: 100px;
+      margin-bottom: 560px;
     }
   }
 </style>
