@@ -4,6 +4,7 @@
   .background {
     margin: 0 auto;
     height: 100%;
+
     position: absolute;
     width: 100vw;
     height: 100vh;

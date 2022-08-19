@@ -29,7 +29,7 @@ body {
   /* min-height: 100vh; */
   margin: 0;
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
   z-index: -999;
 }
 
