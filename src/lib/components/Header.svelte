@@ -26,8 +26,7 @@
     margin: 0 auto;
     width: 100%;
     height: 4rem;
-    margin: 4px;
-    /* margin-top: 4px; */
+    /* margin: 4px; */
     margin-bottom: none;
 
     border: 1px solid #000;

@@ -2,12 +2,8 @@
 
 <style>
   .background {
-    /* width: 760px; */
     margin: 0 auto;
-    /* padding: 0 200px; */
     height: 100%;
-    /* overflow-y: scroll; */
-
     position: absolute;
     width: 100vw;
     height: 100vh;
