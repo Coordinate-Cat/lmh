@@ -6,7 +6,7 @@
   --main-color: #000;
   --secondary-color: #000;
   /* --secondary-color: #6A7281; */
-  --link-color: #0076df;
+  --link-color: #000;
   --border-color: #000;
   /* --border-color: #e5e7eb; */
   font-size: 16px;
@@ -25,7 +25,7 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  background: radial-gradient(ellipse at center, #ffa500 0%, orange 100%);
+  background: radial-gradient(ellipse at center, #ffa500 0%, #ffa500 100%);
   z-index: -2;
 }
 .background::after {
@@ -101,5 +101,9 @@ ul li {
 }
 
 figcaption {
-  text-align: center;
+  display: inline-block;
+  margin-top: 2px;
+  padding: 1px 4px;
+  color: #ffa500;
+  background-color: #000;
 }

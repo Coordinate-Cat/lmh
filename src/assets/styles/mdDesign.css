@@ -94,7 +94,6 @@ table tr th :last-child, table tr td :last-child {
 .post-detail__content img {
   display: block;
   max-width: 70%;
-  margin: 0 auto;
 }
 
 
@@ -102,7 +101,7 @@ table tr th :last-child, table tr td :last-child {
 code, tt {
   margin: 0 2px;
   padding: 0 5px;
-  color: #fff;
+  color: #ffa500;
   border: 1px solid #000;
   background-color: #000;
   border-radius: 3px;

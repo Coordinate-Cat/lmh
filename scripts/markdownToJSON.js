@@ -19,14 +19,14 @@ export const remarkableOptions = {
             console.log(err)
         }
       }
-  
+
       try {
         return hljs.highlightAuto(str).value;
       } catch (err) {
           console.log(err)
       }
-  
-      return ''; 
+
+      return '';
     }
 }
 
