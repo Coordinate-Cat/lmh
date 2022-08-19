@@ -25,10 +25,11 @@
 }
 body {
   width: 100vw;
-  height: 100vh;
+  /* height: 100vh; */
   min-height: 100vh;
   margin: 0;
   position: relative;
+  overflow: hidden;
   z-index: -999;
 }
 
