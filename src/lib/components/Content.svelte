@@ -8,5 +8,7 @@
     border: 1px solid #000;
     /* margin-top: 72px; */
     /* margin-bottom: 72px; */
+    overflow: scroll;
+    height: 89vh;
   }
 </style>
