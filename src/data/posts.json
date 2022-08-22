@@ -14,6 +14,21 @@
         "vercel",
         "vite"
       ]
+    },
+    {
+      "body": "<h2>Hi China</h2>\n<p>It's been a long time since people in certain circles have talked about the dangers, but recently something close to that rumor has finally come to light.<br>\nTo begin with, many teenagers in my home country are in their teens and twenties who think Tik Tok is run by an American company.</p>\n<ul>\n<li>Felix Krause\n<ul>\n<li><a href=\"https://github.com/KrauseFx\">github</a></li>\n<li><a href=\"https://twitter.com/felixkrause\">twitter</a></li>\n<li><a href=\"https://krausefx.com/blog/announcing-inappbrowsercom-see-what-javascript-commands-get-executed-in-an-in-app-browser\">krausefx.com</a></li>\n<li><a href=\"https://krausefx.com/assets/posts/inappbrowser/app_js/tiktok.js\">krausefx.com/tiktok.js</a></li>\n</ul></li>\n<li><a href=\"https://www.forbes.com/sites/richardnieva/2022/08/18/tiktok-in-app-browser-research/?sh=3fc489b27c55\">Forbes</a></li>\n<li><a href=\"https://techcrunch.com/2022/08/19/tiktok-fb-in-app-browser-tracking-analysis/\">techcrunch</a></li>\n</ul>\n<p>I'm very curious to know what the process is like when you search for the Tiananmen Square incident in the browser in tiktok.<br>\nDue to the recent situation in Taiwan, there is a lot of skepticism about products made in China.<br>\nWhen an American official came to Taiwan the other day, Taiwan's domestic systems seemed to be hijacked here and there (we saw some backdoor-like activity). <a href=\"https://www.reuters.com/world/attacks-taiwan-websites-likely-work-chinese-hacktivists-researchers-2022-08-02/\">(Attacks on Taiwan websites likely work of Chinese 'hacktivists' - researchers)</a></p>\n<p>I think we need to pay more attention to what the communist bloc is going to do in the future, whether it is war in Russia or not. What we can do now is to stay away from Chinese apps, not only tiktok, but Chinese apps include LINE. I feel that companies that are using Lineworks and others are out of their minds. Even if the company does not want to use them, they will be forced by the Chinese government to introduce strange behavior and if ordered by the government, they will have no choice but to show their data.<br>\nAs a Chinese company, the company statement is nothing but false.</p>\n<p>On the surface, it's an app that allows you to easily create videos and upload them to social networking sites.<br>\nBehind the scenes, it's a dating site, personal information can be easily identified, information can be sold to vendors, and you can be attacked for the slightest thing, just like Twitter, etc.<br>\nThe security is too loose, and there are many people who show their faces easily, which is honestly crazy.<br>\nIn Japan, the leftists have complete control of the media, and even the TV and other media are covering &quot;trendy apps&quot; as if it were a matter of course, so the citizens who do not dance around simple information are feeling a sense of uneasiness.</p>\n",
+      "title": "TikTok's in-app browser",
+      "date": "2022-08-23T00:00:00.000Z",
+      "description": "not a feature that can be implemented by mistake",
+      "isCompleted": true,
+      "emoji": "👯‍♀️",
+      "slug": "tiktoks-in-app-browser",
+      "tags": [
+        "svelte",
+        "sveltekit",
+        "vercel",
+        "vite"
+      ]
     }
   ]
 }
